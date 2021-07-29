@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Html Elements</title>
+</head>
+
+<body>
+    <h1>HTML ELEMENTS</h1>
+    <P>please fillout the form before and submit.we will contact you our earliest</P>
+    <fieldset>
+        <legend>Informations</legend>
+<form action="thankyou.php" method="GET">
+    <label for="name">Full Name</label><br>
+    <input type="text" name="fname" placeholder="Enter your full name" required><br>
+    <label for="classcourse">Course</label><br>
+    <input type="text" name="course" placeholder="Enter your Course Name"><br>
+    <label for="birthday">Date of birth</label><br>
+    <input type="date" name="birthday"><br>
+    <hr>
+
+    <label for="subjets">subjects</label><br>
+    <label for="1"> HTML</label>
+    <input type="radio" name="subjects" value="html" >
+    <label for="2">CSS </label>
+    <input type="radio" name="subjects" value="csss" >
+    <label for="3"> PHP</label>
+    <input type="radio" name="subjects" value="php" ><br>
+<hr>
+    <label for="message">Message</label><br>
+    <textarea name="message" cols="30" rows="10" placeholder="Enter here"></textarea><br>
+    <label for="topics">Topics</label><br>
+    <select  name="topics">
+        <option value="subject" >CSS</option>
+        <option value="subject">HTML</option>
+        <option value="subject">PHPS</option>
+    </select>
+    <hr>
+     <label for="sport">Sports</label>
+     <br>
+     <input type="checkbox" name="sport_1" value="sport_1">
+     <label for="sport_1">Cricket</label><br>
+     <input type="checkbox" name="sport_2" value="sport_2">
+     <label for="sport_2">Football</label><br>
+     <input type="checkbox" name="sport_3" value="sport_3">
+     <label for="sport_3">PUBG</label><br>
+     <input type="checkbox" name="sport_4" value="sport_4">
+     <label for="soprt_4">CODM</label><br>
+     <br>
+     
+     <label for="email">E-mail</label><br>
+     <input type="text" name="email"><br>
+     <label for="password">Password</label><br>
+     <input type="password" name="password"><br>
+     <label for="upload">Upload your file</label><br>
+     <input type="file" name="upload"><br>
+     <label for="age">Age Range (between 12 & 19)</label>
+     <input type="number" name="age" min="12" max="19"><br>
+     <label for="age">Age Range (between 12 & 19)</label> 
+     <input type="range" name="age" min="12" max="19"><br>
+      
+     <input type="submit" value="submit"><br>
+</form>
+
+    </fieldset>
+</body>
+</html>
